@@ -5,6 +5,387 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="وب‌سایت مکتب نیک؛ مهدکودکی گرم، امن و خلاق برای رشد کودکان.">
   <title>مکتب نیک | مهدکودک و پیش‌دبستانی</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav-shell" aria-label="ناوبری اصلی">
+      <a class="brand" href="#home" aria-label="مکتب نیک">
+        <img src="maktab-nik-logo.svg" alt="لوگوی مکتب نیک" style="display:block;width:178px;max-width:100%;height:auto;">
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="باز کردن فهرست" aria-expanded="false" aria-controls="main-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="main-menu">
+        <li><a href="#home">صفحه اصلی</a></li>
+        <li><a href="#about">درباره مکتب نیک</a></li>
+        <li><a href="#ages">گروه‌های سنی</a></li>
+        <li><a href="#classes">کلاس‌ها و کارگاه‌ها</a></li>
+        <li><a href="#summer">کمپ تابستانی</a></li>
+        <li><a href="#gallery">گالری تصاویر</a></li>
+        <li><a href="#contact">تماس با ما</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home" aria-labelledby="home-title">
+      <div class="hero-art" aria-hidden="true">
+        <span class="cloud cloud-one"></span>
+        <span class="cloud cloud-two"></span>
+        <span class="star star-one"></span>
+        <span class="star star-two"></span>
+        <span class="leaf leaf-one"></span>
+        <span class="leaf leaf-two"></span>
+      </div>
+
+      <div class="section-inner hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">مهدکودک و پیش‌دبستانی</p>
+          <h1 id="home-title">مکتب نیک</h1>
+          <p class="hero-lead">ما یک خانواده‌ایم در مسیر رشد؛ جایی امن، شاد و خلاق که کودکان با بازی، گفت‌وگو، تجربه و مهربانی بزرگ می‌شوند.</p>
+          <div class="hero-actions" aria-label="اقدام‌های اصلی">
+            <a class="btn btn-primary" href="#contact">ثبت‌نام کودک</a>
+            <a class="btn btn-secondary" href="#contact">تماس با ما</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="کودکان در حال فعالیت آموزشی و خلاق">
+          <img src="maktab-nik-hero.png" alt="کودکان شاد در کلاس مکتب نیک هنگام نقاشی، موسیقی و بازی‌های آموزشی" style="display:block;width:100%;height:auto;aspect-ratio:1.2 / 1;object-fit:cover;border-radius:8px;">
+          <div class="hero-stat" aria-label="برنامه‌های تخصصی کودک">
+            <strong>برنامه روزانه پویا</strong>
+            <span>هنر، موسیقی، مهارت‌های شناختی و بازی هدفمند</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section program-highlights" aria-labelledby="program-title">
+      <div class="section-inner">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">برنامه‌های تخصصی مکتب نیک</p>
+          <h2 id="program-title">یادگیری با موسیقی، هنر و فکر کردن</h2>
+        </div>
+        <div class="program-grid">
+          <article class="card program-card">
+            <span class="program-icon" aria-hidden="true">🎵</span>
+            <h3>آموزش موسیقی</h3>
+            <p>کلاس‌های بلز، ملودیکا و فلوت برای کودکان</p>
+          </article>
+          <article class="card program-card">
+            <span class="program-icon" aria-hidden="true">🎨</span>
+            <h3>هنر و خلاقیت</h3>
+            <p>نقاشی، هنردرمانی، سفال و نویسندگی خلاق</p>
+          </article>
+          <article class="card program-card">
+            <span class="program-icon" aria-hidden="true">🧠</span>
+            <h3>مهارت‌های شناختی</h3>
+            <p>بازی‌های فکری، اسکرچ، فلسفه برای کودکان و تقویت تمرکز</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro-band" aria-labelledby="intro-title">
+      <div class="section-inner split-layout">
+        <div>
+          <p class="eyebrow">معرفی کوتاه</p>
+          <h2 id="intro-title">خانه‌ای گرم برای سال‌های طلایی کودکی</h2>
+          <p>در مکتب نیک، هر کودک با ریتم خودش دیده می‌شود. فضای ما برای بازی هدفمند، کشف، دوستی، استقلال، بیان احساسات و آمادگی آرام برای مسیر یادگیری طراحی شده است.</p>
+        </div>
+        <div class="trust-panel">
+          <div>
+            <strong>امنیت عاطفی</strong>
+            <span>رابطه‌ای صمیمی، محترمانه و قابل اعتماد با کودک</span>
+          </div>
+          <div>
+            <strong>یادگیری فعال</strong>
+            <span>تجربه، مشاهده، بازی و پرسشگری در برنامه روزانه</span>
+          </div>
+          <div>
+            <strong>همراهی والدین</strong>
+            <span>گزارش منظم، گفت‌وگوی سازنده و مسیر تربیتی مشترک</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="eyebrow">درباره مکتب نیک</p>
+          <h2 id="about-title">رویکرد آموزشی و تربیتی</h2>
+          <p>ما رشد کودک را یک مسیر چندبعدی می‌دانیم؛ ذهن، بدن، احساس، زبان، خلاقیت و مهارت‌های اجتماعی در کنار هم پرورش پیدا می‌کنند.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="card feature-card">
+            <span class="icon-badge sun-icon" aria-hidden="true"></span>
+            <h3>بازی هدفمند</h3>
+            <p>فعالیت‌ها طوری طراحی می‌شوند که کودک در دل بازی، مهارت‌های شناختی، زبانی و اجتماعی را تمرین کند.</p>
+          </article>
+          <article class="card feature-card">
+            <span class="icon-badge leaf-icon" aria-hidden="true"></span>
+            <h3>تربیت مهربان</h3>
+            <p>رفتار مربیان بر پایه احترام، شنیدن کودک، مرزبندی آرام و تقویت احساس ارزشمندی شکل می‌گیرد.</p>
+          </article>
+          <article class="card feature-card">
+            <span class="icon-badge star-icon" aria-hidden="true"></span>
+            <h3>کشف و پرسشگری</h3>
+            <p>کودکان با مشاهده، آزمایش‌های ساده، داستان و گفت‌وگو تشویق می‌شوند جهان اطراف خود را بفهمند.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section age-section" id="ages" aria-labelledby="ages-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="eyebrow">گروه‌های سنی</p>
+          <h2 id="ages-title">برنامه متناسب با سن و نیاز هر کودک</h2>
+          <p>هر گروه با برنامه روزانه، بازی‌ها و تمرین‌های مناسب سن خود همراه می‌شود تا رشد کودک طبیعی، شاد و مطمئن باشد.</p>
+        </div>
+        <div class="age-grid">
+          <article class="card age-card">
+            <span>۲ تا ۳ سال</span>
+            <h3>شکوفه‌ها</h3>
+            <p>تمرکز بر امنیت عاطفی، زبان، بازی حسی و آشنایی آرام با جمع.</p>
+          </article>
+          <article class="card age-card">
+            <span>۳ تا ۴ سال</span>
+            <h3>جوانه‌ها</h3>
+            <p>تقویت استقلال، مهارت‌های حرکتی، داستان‌گویی و ارتباط با همسالان.</p>
+          </article>
+          <article class="card age-card">
+            <span>۴ تا ۵ سال</span>
+            <h3>رنگین‌کمان</h3>
+            <p>فعالیت‌های خلاق، مفاهیم پایه، حل مسئله و همکاری گروهی.</p>
+          </article>
+          <article class="card age-card">
+            <span>۵ تا ۶ سال</span>
+            <h3>پیش‌دبستان</h3>
+            <p>آمادگی مدرسه با رویکرد بازی، تمرین توجه، زبان، عدد و خودتنظیمی.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="classes" aria-labelledby="classes-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="eyebrow">کلاس‌ها و کارگاه‌ها</p>
+          <h2 id="classes-title">یادگیری شاد در کنار تجربه‌های متنوع</h2>
+          <p>کلاس‌ها با هدف پرورش خلاقیت، تمرکز، بیان، حرکت و اعتمادبه‌نفس کودک طراحی شده‌اند.</p>
+        </div>
+        <div class="class-list">
+          <article class="card class-card">
+            <h3>هنر و خلاقیت</h3>
+            <p>نقاشی، کاردستی، رنگ، بافت و ساختن با مواد ساده و ایمن.</p>
+          </article>
+          <article class="card class-card">
+            <h3>موسیقی و ریتم</h3>
+            <p>آشنایی با صدا، ریتم، آوازهای کودکانه و حرکت هماهنگ.</p>
+          </article>
+          <article class="card class-card">
+            <h3>قصه و نمایش</h3>
+            <p>تقویت زبان، تخیل، بیان احساسات و حضور در جمع.</p>
+          </article>
+          <article class="card class-card">
+            <h3>ورزش کودک</h3>
+            <p>بازی‌های حرکتی، تعادل، هماهنگی چشم و دست و تخلیه انرژی سالم.</p>
+          </article>
+          <article class="card class-card">
+            <h3>علوم کوچک</h3>
+            <p>آزمایش‌های ساده، مشاهده طبیعت، سؤال پرسیدن و نتیجه‌گیری کودکانه.</p>
+          </article>
+          <article class="card class-card">
+            <h3>مهارت زندگی</h3>
+            <p>خودمراقبتی، همکاری، نوبت‌گیری، حل تعارض و گفت‌وگوی محترمانه.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section summer-section" id="summer" aria-labelledby="summer-title">
+      <div class="section-inner summer-grid">
+        <div>
+          <p class="eyebrow">کمپ تابستانی</p>
+          <h2 id="summer-title">تابستان هزار چرا</h2>
+          <p>تابستان هزار چرا فرصتی است برای کودکانی که می‌خواهند با بازی، آزمایش، طبیعت، هنر، حرکت و قصه، کنجکاوی‌هایشان را دنبال کنند و پاسخ‌های تازه بسازند.</p>
+          <div class="summer-tags" aria-label="برنامه‌های کمپ">
+            <span>طبیعت‌گردی کودکانه</span>
+            <span>آزمایش‌های ساده</span>
+            <span>بازی‌های آبی</span>
+            <span>کارگاه هنر</span>
+          </div>
+          <a class="btn btn-primary" href="#contact">اطلاعات ثبت‌نام کمپ</a>
+        </div>
+        <div class="summer-card" aria-label="تصویرسازی کمپ تابستانی">
+          <svg viewBox="0 0 460 360" role="img" aria-labelledby="summer-svg-title">
+            <title id="summer-svg-title">کمپ تابستانی شاد</title>
+            <rect x="28" y="38" width="404" height="276" rx="20" fill="#fff4c8"/>
+            <circle cx="88" cy="84" r="42" fill="#ffcf56"/>
+            <path d="M80 249l78-120 78 120z" fill="#7cc7b9"/>
+            <path d="M154 249l78-120 78 120z" fill="#ff8b7b"/>
+            <path d="M40 270c70-34 120-34 190 0s120 34 190 0" fill="none" stroke="#6ec6ff" stroke-width="14" stroke-linecap="round"/>
+            <path d="M324 84l9 18 20 3-15 14 4 20-18-10-18 10 4-20-15-14 20-3z" fill="#91d18b"/>
+            <circle cx="250" cy="221" r="19" fill="#ffd2a8"/>
+            <path d="M218 278c5-34 69-34 76 0z" fill="#6ec6ff"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="section teachers-section" aria-labelledby="teachers-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="eyebrow">مربیان</p>
+          <h2 id="teachers-title">تیمی همراه، صبور و آموزش‌دیده</h2>
+          <p>مربیان مکتب نیک با شناخت دنیای کودک، برنامه روزانه را با محبت، نظم، مشاهده دقیق و توجه فردی پیش می‌برند.</p>
+        </div>
+        <div class="teacher-grid">
+          <article class="card teacher-card">
+            <div class="avatar avatar-one" aria-hidden="true"></div>
+            <h3>مربی رشد و بازی</h3>
+            <p>طراحی فعالیت‌های روزانه و پیگیری رشد عاطفی و اجتماعی کودکان.</p>
+          </article>
+          <article class="card teacher-card">
+            <div class="avatar avatar-two" aria-hidden="true"></div>
+            <h3>مربی هنر و قصه</h3>
+            <p>پرورش تخیل، بیان و خلاقیت با قصه، نمایش و کاردستی.</p>
+          </article>
+          <article class="card teacher-card">
+            <div class="avatar avatar-three" aria-hidden="true"></div>
+            <h3>مربی حرکت و مهارت</h3>
+            <p>تقویت هماهنگی بدن، استقلال، نظم فردی و مهارت‌های زندگی.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials-section" aria-labelledby="parents-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="eyebrow">نظر والدین</p>
+          <h2 id="parents-title">اعتماد خانواده‌ها سرمایه اصلی ماست</h2>
+        </div>
+        <div class="testimonial-grid">
+          <blockquote class="card testimonial-card">
+            <p>فضای مکتب نیک برای فرزند ما آرام، شاد و قابل اعتماد بود. هر روز با ذوق درباره بازی‌ها و دوستانش حرف می‌زند.</p>
+            <cite>مادر آراد</cite>
+          </blockquote>
+          <blockquote class="card testimonial-card">
+            <p>گزارش‌دهی منظم و برخورد گرم مربیان باعث شد با خیال راحت مسیر رشد کودکمان را همراهی کنیم.</p>
+            <cite>پدر نازنین</cite>
+          </blockquote>
+          <blockquote class="card testimonial-card">
+            <p>ترکیب بازی، نظم و توجه فردی همان چیزی بود که برای شروع تجربه اجتماعی کودکمان نیاز داشتیم.</p>
+            <cite>مادر رها</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="eyebrow">گالری تصاویر</p>
+          <h2 id="gallery-title">لحظه‌هایی از شادی و یادگیری</h2>
+          <p>نمونه‌ای از حال‌وهوای کلاس‌ها، بازی‌ها، کارگاه‌ها و فضای دوستانه مکتب نیک.</p>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item color-one" type="button" data-title="کارگاه هنر">
+            <span>کارگاه هنر</span>
+          </button>
+          <button class="gallery-item color-two" type="button" data-title="بازی گروهی">
+            <span>بازی گروهی</span>
+          </button>
+          <button class="gallery-item color-three" type="button" data-title="قصه‌خوانی">
+            <span>قصه‌خوانی</span>
+          </button>
+          <button class="gallery-item color-four" type="button" data-title="علوم کوچک">
+            <span>علوم کوچک</span>
+          </button>
+          <button class="gallery-item color-five" type="button" data-title="حیاط شاد">
+            <span>حیاط شاد</span>
+          </button>
+          <button class="gallery-item color-six" type="button" data-title="کمپ تابستانی">
+            <span>کمپ تابستانی</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="section-inner contact-grid">
+        <div>
+          <p class="eyebrow">تماس با ما</p>
+          <h2 id="contact-title">برای آشنایی و ثبت‌نام با ما در ارتباط باشید</h2>
+          <p>برای بازدید حضوری، مشاوره ثبت‌نام یا دریافت برنامه گروه‌های سنی، از راه‌های ارتباطی مکتب نیک استفاده کنید.</p>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="tel:+982100000000">تماس تلفنی</a>
+            <a class="btn btn-secondary" href="#home">بازگشت به بالا</a>
+          </div>
+        </div>
+
+        <address class="contact-card card">
+          <div>
+            <strong>شعبه شیمی گیاه</strong>
+            <span>تهران، محدوده شیمی گیاه، مکتب نیک</span>
+          </div>
+          <div>
+            <strong>شعبه بلوار هرمزگان</strong>
+            <span>تهران، بلوار هرمزگان، مکتب نیک</span>
+          </div>
+          <div>
+            <strong>شماره تماس</strong>
+            <span>۰۲۱-۰۰۰۰۰۰۰۰</span>
+          </div>
+          <div>
+            <strong>زمان پاسخ‌گویی</strong>
+            <span>شنبه تا چهارشنبه، ساعت ۸ تا ۱۶</span>
+          </div>
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-inner footer-inner">
+      <a class="footer-brand" href="#top" aria-label="مکتب نیک">
+        <img src="maktab-nik-logo.svg" alt="لوگوی مکتب نیک" style="display:block;width:154px;max-width:100%;height:auto;">
+      </a>
+      <p>مکتب نیک؛ ما یک خانواده‌ایم در مسیر رشد</p>
+      <a href="#top">بالای صفحه</a>
+    </div>
+  </footer>
+
+  <div class="gallery-modal" hidden>
+    <div class="gallery-modal-backdrop" data-close-modal></div>
+    <div class="gallery-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" aria-label="بستن" data-close-modal>×</button>
+      <div class="modal-art" aria-hidden="true"></div>
+      <h2 id="modal-title">گالری تصاویر</h2>
+      <p>لحظه‌ای از بازی، یادگیری، دوستی و تجربه‌های شاد کودکان در مکتب نیک.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="وب‌سایت مکتب نیک؛ مهدکودکی گرم، امن و خلاق برای رشد کودکان.">
+  <title>مکتب نیک | مهدکودک و پیش‌دبستانی</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
